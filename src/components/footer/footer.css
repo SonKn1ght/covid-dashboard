@@ -1,0 +1,44 @@
+.footer {
+    max-width: 1800px;
+    height: 34px;
+
+    display: flex;
+
+    padding: 0 10px;
+    margin: 0 auto;
+
+    background-color: var(--main-bg-color);
+}
+
+.footer__row {
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+
+    margin: 0;
+    padding: 0 0 0 17px;
+}
+
+.footer__text {
+    color: var(--main-text-color);
+    margin: auto 10px;
+}
+
+.footer__link-rss {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer__date {
+    margin: auto 0;
+}
+
+.footer__link {
+    display: flex;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

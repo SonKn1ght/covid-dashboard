@@ -1,0 +1,28 @@
+.protect-popup {
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    width: calc(100%);
+    z-index: 1200;
+
+    padding: 20px 30px;
+    max-width: 1800px;
+    background-color: var(--main-bg-color);
+
+    text-align: center;
+    font-size: 2rem;
+}
+
+.protect-popup ul {
+    list-style: none;
+}
+
+.protect-popup__cross-close {
+    position: absolute;
+    right: 20px;
+}
+
+.protect-popup__cross-close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

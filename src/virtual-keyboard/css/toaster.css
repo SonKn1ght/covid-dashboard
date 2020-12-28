@@ -1,0 +1,54 @@
+.toast {
+  overflow: hidden;
+  font-size: 1.4rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: none;
+  position: relative;
+  padding: 1rem 2rem 1rem 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.toasts {
+  position: fixed;
+  top: 15px;
+  left: 0;
+  right: 0;
+  max-width: 320px;
+  margin: 0 auto;
+  z-index: 10000;
+}
+
+.toast__close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.6;
+  appearance: button;
+  margin: 0;
+  font-family: inherit;
+  border-radius: 0;
+}
+
+.toast_show {
+  display: block;
+}
+
+.toast:not(:last-child) {
+  margin-bottom: 1rem;
+}

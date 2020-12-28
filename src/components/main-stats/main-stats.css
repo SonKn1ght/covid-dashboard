@@ -1,0 +1,41 @@
+.main-stats {
+    min-height: 100px;
+    padding: 17px 0;
+
+    font-size: 22px;
+    text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+.main-stats:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+}
+
+.main-stats__title {
+    font-size: inherit;
+    color: var(--main-text-color);
+}
+
+.main-stats__value {
+
+}
+
+.main-stats__active {
+    background-color: var(--hover);
+}
+
+.main-stats__confirmed {
+    color: var(--disturbing-color);
+    border: 1px solid var(--disturbing-color);
+}
+
+.main-stats__recovered {
+    color: var(--covered-color);
+    border: 1px solid var(--covered-color);
+}
+
+.main-stats__deaths {
+    color: var(--deaths-color);
+    border: 1px solid var(--deaths-color);
+}

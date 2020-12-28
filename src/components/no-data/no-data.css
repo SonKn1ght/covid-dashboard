@@ -1,0 +1,13 @@
+.no-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.no-data__image {
+  max-height: 64px;
+}

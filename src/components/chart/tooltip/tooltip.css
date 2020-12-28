@@ -1,0 +1,11 @@
+.tooltip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    font-size: 16px;
+    z-index: 1600;
+    background-color: #fff;
+    padding: 5px;
+}

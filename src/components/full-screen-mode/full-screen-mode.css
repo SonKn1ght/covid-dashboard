@@ -1,0 +1,16 @@
+.full-screen {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 1000;
+}
+
+.full-screen img {
+    max-width: 25px;
+    height: 25px;
+}
+
+.full-screen:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
